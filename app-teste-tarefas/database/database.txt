@@ -1,0 +1,10 @@
+dbname = app_tarefas
+table = cad_tarefas
+
+CREATE TABLE cad_tarefas(
+    id integer PRIMARY KEY,
+    descricao varchar(50) NOT NULL,
+    data_tarefa date NOT NULL,
+    data_realizacao date,
+    usuario varchar(15) NOT NULL
+);
